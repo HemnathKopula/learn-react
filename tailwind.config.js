@@ -8,5 +8,13 @@ export default {
     extend: {},
   },
   plugins: [],
+    // other settings
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
 }
 
